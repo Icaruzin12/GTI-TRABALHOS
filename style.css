@@ -1,0 +1,91 @@
+body{
+    background-color: white;
+    padding: 0px;
+    padding-right: 50px;
+    margin: 0px;
+}
+#titulo{
+    margin: 20px;
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid; 
+}
+#itens{
+    margin: 20px;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    background-color: white;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+}
+#itens div{
+    margin: 20px;
+    width: 100%;
+    height: 100px;
+    flex: 1;
+    background-color: white;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+}
+#centro{
+    margin: 20px;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+}
+#centro div{
+    margin: 20px;
+    width: 100%;
+    height: 350px;
+    background-color: white;
+    flex: 1;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+}
+footer{
+    margin: 20px;
+    width: 100%;
+    height: 150px;
+    background-color: white;
+    display: inline-flex;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+}
+#rodape-esquerda{
+    margin: 20px;
+    width: 45%;
+    height: 100px;
+    background-color: white;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+}
+#rodape-central{
+    margin: 20px;
+    width: 45%;
+    height: 100px;
+    background-color: white;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+}
+#rodape-direita{
+    margin: 20px;
+    width: 10%;
+    height: 100px;
+    background-color: white;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+}
