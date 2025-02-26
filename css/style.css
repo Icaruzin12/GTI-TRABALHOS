@@ -1,42 +1,91 @@
-header{
-    background-color: #820ad1;
-    height: 20vh;
-}
 body{
-    margin: 0px;
+    background-color: white;
     padding: 0px;
+    padding-right: 50px;
+    margin: 0px;
 }
-main{
-    background-color: #ffffff;
-    height: 80vh;
+#titulo{
+    margin: 20px;
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid; 
 }
-#header-icones{
-    padding-top: 6vh;
-    height: 7vh;
-    border: 1px solid #f90;
-    align-items: center;
+#itens{
+    margin: 20px;
+    width: 100%;
+    height: 150px;
     display: flex;
+    background-color: white;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
 }
-#header-icones-esquerda{
-    border: 1px solid #c00;
+#itens div{
+    margin: 20px;
+    width: 100%;
+    height: 100px;
     flex: 1;
+    background-color: white;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
 }
-.header-icone-esquerda{
-    
+#centro{
+    margin: 20px;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
 }
-#header-icones-direita{
-    border: 1px solid #0c0;
+#centro div{
+    margin: 20px;
+    width: 100%;
+    height: 350px;
+    background-color: white;
     flex: 1;
-    display: flex;
-    justify-content: flex-end;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
 }
-.header-icone-direita{
-    
+footer{
+    margin: 20px;
+    width: 100%;
+    height: 150px;
+    background-color: white;
+    display: inline-flex;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
 }
-#header-nome{
-    clear:both; /* limpa ambos os lados para nenhum elemento flutuar*/
-    height: 7vh;
-    align-items: center;
-    display: flex;
-    color: #ffffff;
+#rodape-esquerda{
+    margin: 20px;
+    width: 45%;
+    height: 100px;
+    background-color: white;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+}
+#rodape-central{
+    margin: 20px;
+    width: 45%;
+    height: 100px;
+    background-color: white;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+}
+#rodape-direita{
+    margin: 20px;
+    width: 10%;
+    height: 100px;
+    background-color: white;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
 }
