@@ -1,0 +1,42 @@
+header{
+    background-color: #820ad1;
+    height: 20vh;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+main{
+    background-color: #ffffff;
+    height: 80vh;
+}
+#header-icones{
+    padding-top: 6vh;
+    height: 7vh;
+    border: 1px solid #f90;
+    align-items: center;
+    display: flex;
+}
+#header-icones-esquerda{
+    border: 1px solid #c00;
+    flex: 1;
+}
+.header-icone-esquerda{
+    
+}
+#header-icones-direita{
+    border: 1px solid #0c0;
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+.header-icone-direita{
+    
+}
+#header-nome{
+    clear:both; /* limpa ambos os lados para nenhum elemento flutuar*/
+    height: 7vh;
+    align-items: center;
+    display: flex;
+    color: #ffffff;
+}
